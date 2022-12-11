@@ -1,0 +1,251 @@
+.vermelho {
+    background-color: #B93416;
+}
+
+.carousel {
+    border-radius: 30px 30px 30px 30px;
+    overflow: hidden;
+}
+
+.carousel .carousel-item {
+    height: 650px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 650px;
+}
+
+.ultima-div {
+    margin-top: 50px;
+    padding: 200px 0;
+    background-color: white;
+}
+
+body {
+    font-family: 'Fjalla One', sans-serif;
+    background-color: #B93416;
+}
+
+#app {
+    background-color: #B93416;
+}
+
+nav {
+    margin: 0 20px;
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.nav-item {
+    font-size: 20px;
+    margin-left: 100px;
+    background-color: #C54E34;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0 30px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.container-fluid {
+    background-color: #B93416;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    font-family: 'Fjalla One', sans-serif;
+    color: #FFF;
+    font-size: 50px;
+    margin: 0px;
+}
+
+.p-reset {
+    text-align: center;
+}
+
+.cabeca-card {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.card-body {
+    color: white;
+    text-align: center;
+}
+
+.card-footer {
+    color: white;
+    font-size: 20px;
+}
+
+.btn-login {
+    background-color: #B93416;
+    padding: 0 100px;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.btn-login:hover {
+    opacity: 1;
+}
+
+.invalid-feedback {
+    color: #FF7272;
+    font-size: 15px;
+}
+
+.lb-login {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.rec-senha {
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.rec-senha:hover {
+    color: rgb(164, 148, 148);
+}
+
+.div-rec {
+    text-align: center;
+}
+
+.card {
+    background-color: #707070;
+    border-radius: 20px;
+    margin: 30px auto;
+    width: 55%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.div-status {
+    padding-bottom: 50px;
+}
+
+.nav-principal {
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-auth {
+    display: flex;
+    justify-content: flex-end
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+    min-width: 100%;
+    background-color: #fafafa;
+}
+
+body {
+    background: #4A4A4A;
+}
+
+.nomePagina {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+
+.bannerText {
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.textArea {
+    display: flex;
+    width: 55%;
+    height: 500px;
+    background-color: #c9c9c9;
+    margin: 2%;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: -30px;
+}
+
+.opcaoSol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    color: #B93416;
+    margin: 2%;
+}
+
+.b1 {
+    display: flex;
+    width: 355px;
+    height: 130px;
+    margin: 15px;
+    text-align: center;
+    background: #C54E34;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.t1 {
+    display: flex;
+    color: #ffffff;
+}
+
+.table {
+    position: relative;
+    justify-content: left;
+    flex-direction: column;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    font: fjalla-one;
+    font-size: 17px;
+    align-content: space-around;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 1em;
+}
