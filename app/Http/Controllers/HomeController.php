@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\Servico;
 use Illuminate\Http\Request;
 use App\Models\Gerente;
 use App\Models\Funcionario;

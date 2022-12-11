@@ -36,6 +36,14 @@
 
                         <input style="background-color: #707070; padding: 150px 0; text-align:center; color:white; font-size: 20px;" id="descricao" type="text"
                             class="form-control @error('descricao') is-invalid @enderror" name="descricao" required autocomplete="descricao" autofocus disabled
+
+                            @if($servico->status == 'Inexistente')
+                            value = "A solicitação informada não existe."
+                            @elseif ($servico->status == 'Não iniciado')
+                            value = "A solicitação informada ainda não foi iniciada."
+                            @else
+                            value="{{$problemas}}"
+                            @endif
                         >
 
                         @error('descricao')
@@ -51,6 +59,14 @@
 
                         <input style="background-color: #707070; color:white;" id="status" type="text"
                             class="form-control @error('status') is-invalid @enderror" name="status" required autocomplete="status" autofocus disabled
+
+                            @if ($servico->status == 'Não iniciado')
+                            value = "Não iniciada"
+                            @elseif($servico->status == 'Inexistente')
+                            value = "Inexistente"
+                            @else
+                            value="{{ $servico->status . ' - ' . $data}}"
+                            @endif
                         >
 
                         @error('status')

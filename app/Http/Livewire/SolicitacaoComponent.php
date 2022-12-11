@@ -47,9 +47,9 @@ class SolicitacaoComponent extends Component
 
         $cliente = Cliente::where('id_cliente',  $solicitacaoValidada['id_cliente'])->first();
 
-        Mail::to($cliente->email)->send(
-            new EmailSolicitacao($solicitacao->codigo, $cliente->nome)
-        );
+//        Mail::to($cliente->email)->send(
+//            new EmailSolicitacao($solicitacao->codigo, $cliente->nome)
+//        );
 
         session()->flash('message', 'Solicitação criada com sucesso!');
 
