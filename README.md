@@ -28,11 +28,16 @@
     <img src="gif/gif_pagina_inicial.gif" width="700"/>
 </p>
 
-
-<h1 align=center> Logged in Main Page </h1>
+<h1 align=center> Manager Main Page </h1>
 
 <p align=center> 
-    <img src="gif/main_logado.PNG" width="700"/>
+    <img src="gif/manager_main_page.png" width="700"/>
+</p>
+
+<h1 align=center> Employee Main Page </h1>
+
+<p align=center> 
+    <img src="gif/Employee_main_page.png" width="700"/>
 </p>
 
 <h1 align=center> CRUD Client  </h1>
@@ -48,4 +53,10 @@
 
 <p align=center> 
     <img src="gif/servicos.gif" width="900"/>
+</p>
+
+<h1 align=center> Bonus Page </h1>
+
+<p align=center> 
+    <img src="gif/bonus.png" width="1000"/>
 </p>
