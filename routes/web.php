@@ -50,7 +50,7 @@ Route::get('/equipamentos', [\App\Http\Controllers\EquipamentoController::class,
 
 Route::get('/funcionarios', [\App\Http\Controllers\UsuarioController::class, 'index'])->name('usuarios.index');;
 Route::get('/bonificacoes', [\App\Http\Controllers\BonificacaoController::class, 'index'])->name('bonificacoes.index');
-Route::get('/relatorios', [\App\Http\Controllers\RelatorioController::class, 'index'])->name('relatorios.index');
+Route::get('/relatorios/exportar', [\App\Http\Controllers\RelatorioController::class, 'exportar'])->name('relatorios.exportar');
 
 Route::get('/gerarUsuarios', function () {
         if(DB::table('users')->count() == 0) {

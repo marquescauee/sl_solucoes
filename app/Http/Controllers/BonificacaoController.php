@@ -8,6 +8,11 @@ use Illuminate\Support\Facades\DB;
 
 class BonificacaoController extends Controller
 {
+    public function __construct() {
+        $this->middleware('auth');
+        $this->middleware('gerenteMiddleware');
+    }
+
     public function index() {
         $acrescimo_funcionario = [];
         $servicos_funcionario = [];

@@ -25,7 +25,7 @@
 
                     <a class="nav-item nav-link m-0 px-5 py-3" style="background-color: #D9D9D9; color: #646262" aria-current="page" href="{{route('bonificacoes.index')}}">Bonificação</a>
 
-                    <a class="nav-item nav-link m-0 px-5 py-3" style="background-color: #D9D9D9; color: #646262" aria-current="page" href="{{route('relatorios.index')}}">Relatórios</a>
+                    <a class="nav-item nav-link m-0 px-5 py-3" style="background-color: #D9D9D9; color: #646262" aria-current="page" href="{{route('relatorios.exportar')}}">Relatório de serviços</a>
                 </div>
             </div>
         </div>
