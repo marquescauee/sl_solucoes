@@ -25,9 +25,9 @@ class BonificacaoController extends Controller
             $acrescimo = 0;
             $servicos = 0;
 
-            $acrescimo += (DB::table('servicos')->where('id_funcionario', $funcionario->id_funcionario)->count()) * 100;
+            $acrescimo += (DB::table('servicos')->where('id_funcionario', $funcionario->id_funcionario)->where('data_finalizado', '<>', 'null')->count()) * 100;
 
-            $servicos += DB::table('servicos')->where('id_funcionario', $funcionario->id_funcionario)->count();
+            $servicos += DB::table('servicos')->where('id_funcionario', $funcionario->id_funcionario)->where('data_finalizado', '<>', 'null')->count();
 
             $acrescimo_funcionario[$funcionario->id_funcionario] =  $acrescimo;
             $servicos_funcionario[$funcionario->id_funcionario] =  $servicos;

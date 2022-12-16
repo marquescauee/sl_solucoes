@@ -37,6 +37,7 @@ class ServicoComponent extends Component
     public function updated($campos) {
 
         $servico = Servico::where('id_servico', $this->id_servico)->first();
+
         $servico_problema = ServicoProblema::where('id_servico', $servico->id_servico)->first();
 
         if($servico_problema == null) {
